@@ -4,7 +4,7 @@
 Name:           %{?scl_prefix}bsf
 Epoch:          0
 Version:        2.4.0
-Release:        26.1%{?dist}
+Release:        26.2%{?dist}
 Summary:        Bean Scripting Framework
 License:        ASL 2.0
 URL:            http://commons.apache.org/bsf/
@@ -81,6 +81,9 @@ ant jar javadocs
 %license LICENSE.txt NOTICE.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 0:2.4.0-26.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 0:2.4.0-26.1
 - Automated package import and SCL-ization
 
